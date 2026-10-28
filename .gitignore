@@ -1,0 +1,36 @@
+# 编译产物（不提交二进制）
+*.exe
+*.o
+*.obj
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.crf
+*.d
+*.lnp
+*.sct
+build/
+Objects/
+Listings/
+
+# Keil / IAR 本机配置
+*.uvguix.*
+*.uvoptx
+*.dep
+settings/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
